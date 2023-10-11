@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg_provider/flutter_svg_provider.dart';
 
-class homescreenbar extends StatelessWidget {
-  const homescreenbar({Key?key}):super(key: key);
+class HomeScreenBar extends StatelessWidget {
+  const HomeScreenBar({Key?key}):super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,18 +10,19 @@ class homescreenbar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
+          padding:const EdgeInsets.only(top: 10),
           height: 24,
           width: 24,
           decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage("assets/Icons-Menu-Burger.png"),alignment: Alignment.topLeft),
+            image: DecorationImage(image: Svg('assets/svg/icon-burger', size: Size(24,24)),),
           ),
         ),
-        Container(
+        const SizedBox(
           width: 36,
           height: 36,
-          child: const CircleAvatar(
+          child: CircleAvatar(
             backgroundColor: Color.fromRGBO(37, 40, 43, 1),
-            backgroundImage: AssetImage("assets/person.png")
+            backgroundImage: AssetImage("assets/images/person.png"),
         ),
         ),
       ],
