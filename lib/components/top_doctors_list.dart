@@ -1,5 +1,5 @@
-import 'package:doctor_app/components/top_doctor_card.dart';
-import 'package:doctor_app/model/doctor.dart';
+import 'top_doctor_card.dart';
+import '../model/doctor.dart';
 import 'package:flutter/material.dart';
 
 class TopDoctorsList extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:doctor_app/screens/doctor_app_theme.dart';
-import 'package:doctor_app/screens/doctor_details.dart';
-import 'package:doctor_app/screens/home_screen.dart';
+import 'doctor_app_theme.dart';
+import 'doctor_details.dart';
+import 'home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

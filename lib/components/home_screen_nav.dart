@@ -22,7 +22,7 @@ class HomeScreenBar extends StatelessWidget {
           height: 36,
           child: CircleAvatar(
             backgroundColor: Color.fromRGBO(37, 40, 43, 1),
-            backgroundImage: AssetImage("assets/images/person.png"),
+            backgroundImage: AssetImage('assets/images/person.png'),
         ),
         ),
       ],

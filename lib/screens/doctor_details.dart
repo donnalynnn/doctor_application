@@ -1,5 +1,5 @@
-import 'package:doctor_app/model/doctor.dart';
-import 'package:doctor_app/screens/constant.dart';
+import '../model/doctor.dart';
+import 'constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart';
 import 'package:google_fonts/google_fonts.dart';

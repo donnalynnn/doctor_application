@@ -1,4 +1,4 @@
-import 'package:doctor_app/model/doctor.dart';
+import '../model/doctor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart';
 

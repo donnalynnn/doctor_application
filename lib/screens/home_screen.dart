@@ -1,7 +1,7 @@
-import 'package:doctor_app/components/doctor_menu.dart';
-import 'package:doctor_app/components/home_screen_nav.dart';
-import 'package:doctor_app/components/top_doctors_list.dart';
-import 'package:doctor_app/screens/constant.dart';
+import '../components/doctor_menu.dart';
+import '../components/home_screen_nav.dart';
+import '../components/top_doctors_list.dart';
+import 'constant.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {

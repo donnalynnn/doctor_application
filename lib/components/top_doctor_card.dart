@@ -1,5 +1,5 @@
-import 'package:doctor_app/model/doctor.dart';
-import 'package:doctor_app/screens/constant.dart';
+import '../model/doctor.dart';
+import '../screens/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
@@ -53,7 +53,7 @@ final Doctor?doctor;
                      ),
                      const SizedBox(
                       width: 4),
-                    Text('${doctor!.doctorNumberOfPatient}',
+                    Text(doctor!.doctorNumberOfPatient,
                     style: Theme.of(context).textTheme.headlineSmall),
                    ]),
                    Container(
